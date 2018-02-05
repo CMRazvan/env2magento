@@ -1,5 +1,5 @@
 {
-  "name": "dockerizing-magento",
+  "name": "env2magento",
   "description": "A Dockerized Magento Community Edition",
   "require": {
     "magento-hackathon/magento-composer-installer": "v2.1.1",
