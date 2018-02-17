@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "8002:80"
+      - 192.168.1.2:8001:80
     links:
       - db
     env_file:
@@ -18,7 +18,7 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
     ports:
-      - "8580:80"
+      - 192.168.1.2:8010:80
     links:
       - db     
 volumes:
